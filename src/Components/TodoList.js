@@ -32,8 +32,8 @@ function TodoList() {
         return(
             <>
             <p key={i}>
-                <div className='listData'>{data}</div>
-                <div className='ButtonPosition'> <button onClick={() => removeActivity(i)}>remove</button></div>
+               <div className='listData' >{data}</div>
+               <button className='ButtonPosition' onClick={() => removeActivity(i)}>remove</button>
             </p>
             </>
         )
